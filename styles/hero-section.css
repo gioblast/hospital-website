@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+:root {
+  --primary-color: #28bf96;
+  --primary-color-dark: #209677;
+  --text-dark: #111827;
+  --text-light: #6b7280;
+  --white: #ffffff;
+}
+
+.section__container {
+  grid-area: 1/1/2/2; /* O el rango que desees */
+  position: relative;
+  height: 20rem;
+  width: auto;
+  overflow: hidden;
+  background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 255),
+      rgba(255, 255, 255, 100),
+      rgba(61, 182, 67, 0.007)
+    ),
+    url("/assets/clinic_building.jpeg");
+  background-size: cover;
+  
+}
+.hero__container {
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  transform: translate(-10%, -50%);
+  color: var(--text-dark);
+  text-align: left;
+  background: rgba(248, 248, 248, 0.7);
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-shadow: none;
+}
+.hero__container h3{
+    background: var(--white);
+    font-size: 30px;
+    overflow: hidden;
+    border-radius: 0rem;
+}
+.hero__container h3 span{
+    background: var(--white);
+    color: var(--primary-color-dark);
+    font-size: 35px;
+    border: none;
+    outline: none;
+    text-shadow: none;
+}
+.hero__container h4{
+    background: var(--white);
+    font-size: 20px;
+}
+.hero__container h4 span{
+    background: var(--white);
+    color: var(--text-dark);
+    font-weight: 10;
+    font-size: 20px;
+    opacity: 0.9;
+}
+.tel__info{
+    display: none;
+    color: var(--text-dark);
+    font-weight: 300;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+@media (max-width: 1000px) {
+    /* Estilos para pantallas pequeñas */
+    .section__container {
+      height: auto; /* O ajusta según sea necesario */
+    }
+  
+    .hero__container {
+      top: 50%; /* Ajusta según sea necesario */
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .tel__info{
+        display: block;
+    }
+  }
