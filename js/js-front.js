@@ -6,3 +6,8 @@ document.addEventListener('DOMContentLoaded', function () {
       navLinks.classList.toggle('show-links');
     });
   });
+
+  function redirectToLogin(){
+    let nuevaPestana = window.open("/layouts/login.html");
+    nuevaPestana.focus();
+  }
