@@ -6,3 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
       navLinks.classList.toggle('show-links');
     });
   });
+
+function redirigirLogin(){
+  window.location.href='/layouts/login.html'
+}

@@ -14,6 +14,15 @@
   box-sizing: border-box;
   background: #f5f7fa;
 }
+hr {
+  border: none; /* Elimina la línea predeterminada del hr */
+  height: 1px; /* Establece la altura del separador */
+  background-color: var(--text-light); /* Color del separador */
+  margin: 20px 0; /* Ajusta el margen superior e inferior del separador */
+  opacity: 0.8; /* Ajusta la opacidad del separador */
+  margin-left: 30px;
+  margin-right: 30px;
+}
 
 .btn {
   padding: 1rem 2rem;
@@ -132,10 +141,15 @@ nav {
   text-align: center;
   /*margin-top: 3rem;*/
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 .servicios__card a {
   text-decoration: none;
+  flex-grow: 40;
+  
   color: var(--text-dark);
 }
 .servicios__card a:hover {
@@ -170,12 +184,10 @@ nav {
   background: var(--white);
   border-radius: 1rem;
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
-  display: flex;
   margin: 1rem;
   overflow: hidden;
-  width: 16rem;
+  width: 10rem;
   height: 9rem;
-  flex-direction: column; /* Cambiado de row a column */
   align-items: center; /* Centra los elementos horizontalmente */
   cursor: pointer;
   margin-right: 0.5%;
@@ -202,25 +214,22 @@ nav {
   background: var(--white);
   border-radius: 1rem;
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
-  display: flex;
   margin: 1rem;
   overflow: hidden;
-  width: 16rem;
+  width: 10rem;
   height: 9rem;
-  flex-direction: column; /* Cambiado de row a column */
   align-items: center; /* Centra los elementos horizontalmente */
   cursor: pointer;
-  margin-right: 0.5%;
-  margin-left: 0.5%;
+  margin-right: 1%;
+  margin-left: 1%;
 }
 .background3-column {
   background: var(--white);
   border-radius: 1rem;
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
-  display: flex;
   margin: 1rem;
   overflow: hidden;
-  width: 16rem;
+  width: 10rem;
   height: 9rem;
   flex-direction: column; /* Cambiado de row a column */
   align-items: center; /* Centra los elementos horizontalmente */
@@ -292,21 +301,10 @@ nav {
   .nav {
     display: none;
   }
-  .column {
-    width: 100%; /* Ocupar todo el ancho en pantallas pequeñas */
-  }
   .btn_session{
     margin-left: 5px;
   }
-  .column h6 {
-    text-align: center; /* Centrar el texto en pantallas pequeñas */
-    padding: 0.5rem; /* Agregar un poco de relleno alrededor del texto */
-    font-size: 1rem; /* Reducir el tamaño de la fuente para ajustarse mejor en pantallas pequeñas */
-    margin: 3rem 0; /* Ajustar el margen superior e inferior del texto */
-    padding: 0.5rem; /* Agregar un poco de relleno alrededor del texto */
-  }
 
-  .column i{
-    display: none;
-  }
+  
+  
 }

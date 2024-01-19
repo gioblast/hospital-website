@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+:root {
+  --primary-color: #28bf96;
+  --primary-color-dark: #209677;
+  --text-dark: #111827;
+  --text-light: #6b7280;
+  --white: #ffffff;
+}
+.medical-directory {
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--text-dark);
+}
+.containerButton button {
+  color: var(--white);
+  background-color: var(--primary-color);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+}
+.container-info-staff {
+  flex-grow: 1;
+  flex-basis: 200px;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  margin-left: 50px;
+}
+.container-info-image-staff {
+  flex-grow: 1;
+  flex-basis: 1%;
+  margin: 10px;
+  margin-right: 40px;
+
+}
+.image-container {
+  width: 100%; /* Ajusta el tamaño de la imagen al 100% del contenedor */
+  max-width: 300px; /* Establece un tamaño máximo para la imagen */
+  height: auto; /* Mantiene la proporción de aspecto de la imagen */
+  display: block; /* Elimina el espacio adicional debajo de la imagen */
+}
+.containerButton button:hover {
+  background-color: var(--primary-color-dark);
+}
+.description-banner-staff{
+    text-align: left;
+    margin-bottom: 8%;
+}
+.title-custom-staff h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 3%;
+  color: var(--text-dark);
+}
+.title-custom-staff h4 span {
+  color: var(--primary-color-dark);
+  font-size: 1.5rem;
+  font-weight: 700;
+}

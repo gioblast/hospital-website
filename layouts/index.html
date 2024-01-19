@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/index-styles.css" />
+    <link rel="stylesheet" href="/styles/hero-section.css" />
+    <link rel="stylesheet" href="/styles/banner-staff.css" />
+    <link rel="stylesheet" href="/styles/especialidades.css" />
+    <title>Diseño Web | MediCure</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="nav__logo">MediPucallpa</div>
+
+        <ul class="nav__links">
+          <li class="link"><a href="#home">Inicio</a></li>
+          <li class="link"><a href="#about">Nosotros</a></li>
+          <li class="link"><a href="#specialties">Especialidades</a></li>
+          <li class="link"><a href="#staff">Staff Médico</a></li>
+          <li class="link"><a href="#services">Servicios</a></li>
+          <li class="link"><a href="#contact">Contacto</a></li>
+        </ul>
+        <button class="btn_session" onclick="
+        redirigirLogin();
+        ">Iniciar Sesion</button>
+        <h4 class="tel__info">
+          Central telefónica: <span>(+51) 567 879 345</span>
+        </h4>
+        <label for="check" class="checkbtn"><i class="ri-menu-line"></i></label>
+      </nav>
+      <header class="header">
+        <div class="section__container">
+          <div class="hero__container">
+            <h3>
+              Clínica<span><br />MediPucallpa</span>
+            </h3>
+            <h4>Central telefónica: <span>(+51) 567 879 345</span></h4>
+          </div>
+        </div>
+        <div class="content">
+          <h1><span>Atención Rápida</span><br />Servicio Medico</h1>
+          <p>
+            La atención médica rápida es vital para diagnósticos precisos y
+            tratamientos efectivos. La prontitud en la atención no solo mejora
+            la recuperación, sino que también minimiza el impacto emocional y
+            financiero. Priorizar la atención rápida es clave para preservar la
+            salud y garantizar una mejor calidad de vida
+          </p>
+          <button class="btn">Conocer más</button>
+        </div>
+        <div class="serve__title">
+          <p>¿Qué deseas <span>realizar hoy</span>?</p>
+        </div>
+        <div class="servicios__card">
+          <a class="column background1-column" href="blank">
+            <h6>Agendar una cita</h6>
+            <i class="ri-calendar-line"></i>
+          </a>
+          <a class="column background2-column" href="blank">
+            <h6>Reprogramar o anular una cita pagada</h6>
+            <i class="ri-calendar-close-fill"></i>
+          </a>
+          <a class="column background3-column" href="blank">
+            <h6>Realizar pagos</h6>
+            <i class="ri-bank-card-line"></i>
+          </a>
+        </div>
+      </header>
+      <hr />
+      <div class="medical-directory">
+        <div class="container-info-staff">
+          <div class="title-custom-staff">
+            <h4>Staff Médico <span>de Primer nivel</span></h4>
+          </div>
+          <p class="description-banner-staff">
+            Contamos con un equipo médico profesional y comprometido en
+            brindarte la atención que tú y tu familia merecen.
+          </p>
+          <div class="containerButton">
+            <button class="button-ver-staff">Ver staff Médico</button>
+          </div>
+        </div>
+        <div class="container-info-image-staff">
+          <img
+            src="/assets/medical-treatment.svg"
+            alt="imagen medico"
+            class="image-container"
+          />
+        </div>
+      </div>
+
+      <div class="list-card-content">
+        <div class="card-holder">
+          <div class="list-grid-cards">
+            <div class="list-grid-card-title">
+              <p class="card-title-p1">
+                Especialidades <span>a tu disposición</span>
+              </p>
+              <p class="card-title-p2">
+                Estas son algunas de nuestras especialidades
+              </p>
+            </div>
+            <div class="list-card-specialist">
+              <a href="" class="card-spec">
+                <h6>Urología</h6>
+                <img src="/assets/urology-kidney.svg" alt="urologia-image" class="image-spec"></a
+              ><a href="" class="card-spec">
+                <div class="align-spec"></div>
+                <h6>Ginecología</h6> 
+                <img src="/assets/urology-kidney.svg" alt=" " class="image-spec"></a
+              ><a href="" class="card-spec">
+                <h6>Traumatología</h6>
+                <img src="/assets/traumatology.svg" alt="" class="image-spec"/></a
+              ><a href="" class="card-spec">
+                <h6>Otorrinolaringología</h6>
+                <img src="/assets/ear-nose-throat.svg" alt="" class="image-spec" >
+                </a
+              ><a href="" class="card-spec">
+                <h6>Cardiología</h6> 
+                <img src="/assets/cardiology-heart.svg" alt="" class="image-spec"></a
+              ><a href="" class="card-spec">
+                <h6>Oftalmología</h6>
+                <img src="/assets/ophthalmology.svg" alt="" class="image-spec">
+              </a>
+            </div>
+            <div class="list-grid-card-button">
+              <button class="btn-card">Ver todas las especialidades</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/js-hamburgesa-evento.js"></script>
+  </body>
+</html>
