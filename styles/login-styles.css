@@ -19,9 +19,9 @@ body{
     display: flex;
     align-items: center;
     color: var(--primary-color);
-    background: #fff;
+    background: var(--primary-color-dark);
     justify-content: center;
-    background-image: url("/assets/clinic_building.jpeg");
+    /*background-image: url("/assets/clinic_building.jpeg");*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

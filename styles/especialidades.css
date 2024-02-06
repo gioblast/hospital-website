@@ -72,6 +72,11 @@
   margin-top: 2%;
 }
 
+.btn-card:hover{
+  background-color: var(--primary-color-dark);
+  text-decoration: none;
+}
+
 .list-grid-card-button {
   display: flex;
   background: var(--grey-light);
